@@ -5,7 +5,7 @@ on:
     - cron: '*/5 * * * *'    # هر ۵ دقیقه یک بار اجرا میشه
   workflow_dispatch:         # دستی هم بتونی اجرا کنی
   push:
-    branches: [ main
+    branches: [ main ]      # این خط رو درست کردم: ] اضافه شد و در یک خط
 
 jobs:
   run-server:
